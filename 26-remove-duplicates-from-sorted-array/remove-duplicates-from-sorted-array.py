@@ -4,11 +4,12 @@ class Solution(object):
         :type nums: List[int]
         :rtype: int
         """
-        new = []
-        i = ""
+        s = set()
+        k= 0
         for i in nums:
-            if i not in new:
-                new.append(i)
-            continue
-        nums[:len(new)] = new
-        return len(new)
+            if i not in s:
+                s.add(i)
+                nums[k] = i
+                k+=1
+                
+        return k
