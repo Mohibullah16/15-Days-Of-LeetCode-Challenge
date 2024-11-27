@@ -5,20 +5,21 @@ class Solution(object):
         :rtype: List[List[int]]
         """
         
-        # nums.sort()
-        # sol =set()
-        # for iindex, i in enumerate(nums):
-        #     for jindex, j in enumerate(nums):
-        #         if(iindex == jindex):
-        #             continue
-        #         for kindex, k in enumerate(nums):
-        #             if len({iindex, jindex, kindex}) < 3:
-        #                 continue
-        #             if(iindex == jindex == kindex):
-        #                 continue
-        #             if(i+j+k == 0):
-        #                 sol.add(tuple(sorted([i, j, k])))
-        # return list(sol)   
+#         nums.sort()
+#         sol =set()
+#         for iindex, i in enumerate(nums):
+#             for jindex, j in enumerate(nums):
+#                 if(iindex == jindex):
+#                     continue
+#                 for kindex, k in enumerate(nums):
+                    
+#                     if(iindex == jindex == kindex):
+#                         continue
+#                     if len({iindex, jindex, kindex}) < 3:
+#                         continue
+#                     if(i+j+k == 0):
+#                         sol.add(tuple(sorted([i, j, k])))
+#         return list(sol)   
         
             # Solution 2
 
